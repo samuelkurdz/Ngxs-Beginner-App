@@ -46,10 +46,10 @@ export const Books: BookModel[] = [
     price: 89
   },
   {
-    title: 'How to train your mind',
-    imageUrl: 'https://m.media-amazon.com/images/I/51LMv04fxLL._SL320_.jpg',
+    title: '48 Laws of Power',
+    imageUrl: 'https://m.media-amazon.com/images/I/41dTDMW9IhL._SL320_.jpg',
     rating: 4.0,
-    author: 'Chris Bailey',
+    author: 'Robert Greene',
     price: 89
   },
   {
@@ -106,6 +106,13 @@ export const Books: BookModel[] = [
     imageUrl: 'https://m.media-amazon.com/images/I/517c9dDm+sL._SL320_.jpg',
     rating: 4.0,
     author: 'Brandon Sanderson',
+    price: 89
+  },
+  {
+    title: 'The Art of War',
+    imageUrl: 'https://m.media-amazon.com/images/I/51EE3GAdmfL._SL320_.jpg',
+    rating: 4.0,
+    author: 'Sun Tzu',
     price: 89
   }
 ];
