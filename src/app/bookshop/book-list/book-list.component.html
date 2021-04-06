@@ -1,1 +1,10 @@
-<p>book-list works!</p>
+<div class="book-container">
+  <div class="book-card" *ngFor="let book of books">
+    <h4>{{book.title}}</h4>
+    <img [src]="book.imageUrl" [alt]="book.title">
+    <div class="card-footer">
+      <p>${{book.price}}</p>
+      <button>Add To Cart</button>
+    </div>
+  </div>
+</div>
