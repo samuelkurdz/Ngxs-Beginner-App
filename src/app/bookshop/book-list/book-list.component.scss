@@ -13,7 +13,11 @@
   min-width: 300px;
   min-height: 370px;
   margin: 4px;
-  box-shadow: 0 8px 20px -3px #b1abab;
+  box-shadow: 0 2px 7px -3px #b1abab;
+
+  &:hover {
+    box-shadow: 0 8px 20px -3px #b1abab;
+  }
 
   .book-card-background {
     background-color: #dadce2;
