@@ -1,0 +1,20 @@
+.top-bar {
+  display: flex;
+  padding: 10px;
+  justify-content: space-between;
+  box-shadow: 0px 3px 11px -4px #7b827b;
+}
+
+.top-bar-navs {
+  display: flex;
+  gap: 2rem;
+}
+
+.nav-item {
+  cursor: pointer;
+  transition: 0.4s all;
+
+  &:hover {
+    font-weight: lighter;
+  }
+}
