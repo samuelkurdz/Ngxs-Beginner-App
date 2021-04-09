@@ -8,7 +8,9 @@ import {
 import {Store} from '@ngxs/store';
 import {UserState} from '../../store/auth/auth.state';
 
-@Injectable({ providedIn: 'root' })
+@Injectable({
+  providedIn: 'root'
+})
 export class AuthGuard implements CanActivate {
 
   constructor(
@@ -21,6 +23,7 @@ export class AuthGuard implements CanActivate {
     if (isAuthenticated) {
       return true;
     } else {
+      console.log('You are not authorized to see this page');
       this.router.navigateByUrl('/auth');
       return false;
     }

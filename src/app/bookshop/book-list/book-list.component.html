@@ -1,5 +1,5 @@
 <div class="book-container">
-  <div class="book-card" *ngFor="let book of books">
+  <div class="book-card" *ngFor="let book of books$|async">
     <div class="book-card-background" [style.backgroundImage]="'url('+ book.imageUrl +')'"></div>
     <div class="card-footer">
       <p>${{book.price}}</p>
